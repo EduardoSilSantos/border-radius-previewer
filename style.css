@@ -28,3 +28,9 @@ form {
     width: var(--size);
     height: var(--size);
 }
+
+@media (orientation: landscape) and (max-width: 1000px) {
+    .container {
+        display: flex;
+    }
+}

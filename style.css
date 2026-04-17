@@ -1,0 +1,30 @@
+:root {
+    --size: 300px;
+}
+
+input {
+    width: var(--size);
+}
+
+.container {
+    height: 80dvh;
+    margin: 50px;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+form {
+    height: 40dvh;
+}
+
+.box {
+    background: linear-gradient(0deg, blue, red);
+    margin: auto;
+    width: var(--size);
+    height: var(--size);
+}

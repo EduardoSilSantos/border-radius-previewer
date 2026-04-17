@@ -15,11 +15,11 @@ Border-Radius Previewer is a simple application that previews how the shape look
 
 ## 🎯 Objectives
 Implement an application that:
-- [ ] Allows the user to change the values of `border-radius` property
-- [ ] Show live preview with instant feedback
-- [ ] Provide sliders for intuitive manipulation
-- [ ] User can copy the values result
-- [ ] Include a "Reset" button to return to default values
+- [X] Allows the user to change the values of `border-radius` property
+- [X] Show live preview with instant feedback
+- [X] Provide sliders for intuitive manipulation
+- [X] User can copy the values result
+- [X] Include a "Reset" button to return to default values
 
 
 ## 🛠️ Technologies and Tools
@@ -109,9 +109,9 @@ npm install && npm test
 
 
 ## 👤 Completed User Stories
--   [ ] User can see a box which has a `border-radius` property applied to it
--   [ ] User can change the 4 `border-radius` values that are applied to the box (top-left, top-right, bottom-left, bottom-right)
--   [ ] User can copy the resulting CSS to the clipboard
+-   [X] User can see a box which has a `border-radius` property applied to it
+-   [X] User can change the 4 `border-radius` values that are applied to the box (top-left, top-right, bottom-left, bottom-right)
+-   [X] User can copy the resulting CSS to the clipboard
 
 ## ⭐ Completed Bonus Features
 -   [ ] User can change all 8 possible values of the border-radius in order to create a complex shape

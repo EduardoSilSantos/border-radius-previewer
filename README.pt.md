@@ -14,11 +14,11 @@ Border-Radius Previewer é uma aplicação simples que mostra como a forma fica 
 
 ## 🎯 Objetivos
 Implementar uma aplicação que:
-- [ ] Permita ao usuário alterar os valores da propriedade `border-radius`
-- [ ] Mostre uma pré-visualização ao vivo com *feedback* instantâneo
-- [ ] Forneça controles deslizantes para manipulação intuitiva
-- [ ] Usuário pode copiar o resultado dos valores
-- [ ] Inclua um botão "Reset" para retornar aos valores padrão
+- [X] Permita ao usuário alterar os valores da propriedade `border-radius`
+- [X] Mostre uma pré-visualização ao vivo com *feedback* instantâneo
+- [X] Forneça controles deslizantes para manipulação intuitiva
+- [X] Usuário pode copiar o resultado dos valores
+- [X] Inclua um botão "Reset" para retornar aos valores padrão
 
 ## 🛠️ Tecnologias e Ferramentas
 
@@ -106,9 +106,9 @@ npm install && npm test
 👉 Experimente [Border-Radius Previewer](https://eduardosilsantos.github.io/border-radius-previewer/) online.
 
 ## 👤 Histórias de Usuário Completas
--   [ ] Usuário pode ver uma caixa que tem a propriedade `border-radius` aplicada a ela
--   [ ] Usuário pode alterar os 4 valores de `border-radius` que são aplicados à caixa (superior-esquerdo, superior-direito, inferior-esquerdo, inferior-direito)
--   [ ] Usuário pode copiar o CSS resultante para a área de transferência
+-   [X] Usuário pode ver uma caixa que tem a propriedade `border-radius` aplicada a ela
+-   [X] Usuário pode alterar os 4 valores de `border-radius` que são aplicados à caixa (superior-esquerdo, superior-direito, inferior-esquerdo, inferior-direito)
+-   [X] Usuário pode copiar o CSS resultante para a área de transferência
 
 ## ⭐ Funcionalidades Bônus Completas
 -   [ ] Usuário pode alterar todos os 8 valores possíveis do border-radius para criar uma forma complexa

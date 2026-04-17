@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Border-Radius Previewer</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box"></div>
+        <form onreset="formReset()">
+
+            <label for="top-left">Top Left</label>
+            <input type="range" id="top-left">
+
+            <label for="top-right">Top Right</label>
+            <input type="range" id="top-right">
+
+            <label for="bottom-left">Bottom Left</label>
+            <input type="range" id="bottom-left">
+
+            <label for="bottom-right">Bottom Right</label>
+            <input type="range" id="bottom-right">
+
+            <input type="reset" value="Reset">
+
+            <label for="output">Border-Radius:</label>
+            <input type="text" id="output">
+            <button type="button" onclick="copy()">Copy</button>
+        </form>
+
+    </div>
+    <script src=" script.js"></script>
+</body>
+
+</html>

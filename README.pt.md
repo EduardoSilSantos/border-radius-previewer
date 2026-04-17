@@ -1,32 +1,30 @@
 [![English](https://img.shields.io/badge/lang-English-blue?labelColor=red)](https://github.com/EduardoSilSantos/border-radius-previewer)
 [![Português](https://img.shields.io/badge/lang-Português-green?labelColor=yellow)](README.pt.md)
 
-<!-- # ✅ Challenge Completed: Border-Radius Previewer App -->
-# ✅ Work in Progress: Border-Radius Previewer App
+<!-- # ✅ Desafio Concluído: Border-Radius Previewer App -->
+# ✅ Em desenvolvimento: Aplicativo Border-Radius Previewer
 
-This project implements a solution to the 
+Este projeto implementa uma solução para o desafio
 [Border-Radius Previewer](https://github.com/florinpop17/app-ideas/blob/master/Projects/1-Beginner/Border-Radius-Previewer.md) 
-challenge from the 
-[app-ideas](https://github.com/florinpop17/app-ideas) repository.
+do repositório 
+[app-ideas](https://github.com/florinpop17/app-ideas).
 
-## 📌 Description
-Border-Radius Previewer is a simple application that previews how the shape looks while changing the values of `border-radius` property.
+## 📌 Descrição
+Border-Radius Previewer é uma aplicação simples que mostra como a forma fica enquanto se alteram os valores da propriedade `border-radius`.
 
+## 🎯 Objetivos
+Implementar uma aplicação que:
+- [ ] Permita ao usuário alterar os valores da propriedade `border-radius`
+- [ ] Mostre uma pré-visualização ao vivo com *feedback* instantâneo
+- [ ] Forneça controles deslizantes para manipulação intuitiva
+- [ ] Usuário pode copiar o resultado dos valores
+- [ ] Inclua um botão "Reset" para retornar aos valores padrão
 
-## 🎯 Objectives
-Implement an application that:
-- [ ] Allows the user to change the values of `border-radius` property
-- [ ] Show live preview with instant feedback
-- [ ] Provide sliders for intuitive manipulation
-- [ ] User can copy the values result
-- [ ] Include a "Reset" button to return to default values
+## 🛠️ Tecnologias e Ferramentas
 
-
-## 🛠️ Technologies and Tools
-
-- **Web Development**: HTML, CSS, JavaScript;
-- **Tools**: Git, VS Code, NodeJS;
-- **Testing**: Jest;
+- **Desenvolvimento Web**: HTML, CSS, JavaScript;
+- **Ferramentas**: Git, VS Code, NodeJS;
+- **Testes**: Jest;
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
   <img 
@@ -93,36 +91,35 @@ Implement an application that:
   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jest/jest-plain.svg" />
 </a>
 
-## ⚙️ How to run locally.
+## ⚙️ Como executar localmente.
 
-Clone the repository and open the **`index.html`** file in a browser:
+Clone o repositório e abra o arquivo **`index.html`** em um navegador:
 ```bash
 git clone https://github.com/EduardoSilSantos/border-radius-previewer.git
 ```
 
-### Running Tests
-You need to have [NodeJS](https://nodejs.org) installed to set up the dependencies and run the tests:
+### Executando testes
+Você precisa ter o [NodeJS](https://nodejs.org) instalado para configurar as dependências e executar os testes:
 ```bash
 npm install && npm test
 ```
-👉 Try [Border-Radius Previewer](https://eduardosilsantos.github.io/border-radius-previewer/) online. 
+👉 Experimente [Border-Radius Previewer](https://eduardosilsantos.github.io/border-radius-previewer/) online.
 
+## 👤 Histórias de Usuário Completas
+-   [ ] Usuário pode ver uma caixa que tem a propriedade `border-radius` aplicada a ela
+-   [ ] Usuário pode alterar os 4 valores de `border-radius` que são aplicados à caixa (superior-esquerdo, superior-direito, inferior-esquerdo, inferior-direito)
+-   [ ] Usuário pode copiar o CSS resultante para a área de transferência
 
-## 👤 Completed User Stories
--   [ ] User can see a box which has a `border-radius` property applied to it
--   [ ] User can change the 4 `border-radius` values that are applied to the box (top-left, top-right, bottom-left, bottom-right)
--   [ ] User can copy the resulting CSS to the clipboard
-
-## ⭐ Completed Bonus Features
--   [ ] User can change all 8 possible values of the border-radius in order to create a complex shape
+## ⭐ Funcionalidades Bônus Completas
+-   [ ] Usuário pode alterar todos os 8 valores possíveis do border-radius para criar uma forma complexa
 
 ## 🚀 Status
-<!-- - [x] Challenge successfully completed! -->
+<!-- - [x] Desafio concluído com sucesso! -->
 ```bash
-🚧 → Under development... # Please wait for updates...
+🚧 → Em desenvolvimento... # Por favor, aguarde atualização...
 ```
 
-## 🔗 References
-Original challenge: [Border-Radius Previewer](https://github.com/florinpop17/app-ideas/blob/master/Projects/1-Beginner/Border-Radius-Previewer.md) 
+## 🔗 Referências
+Desafio original: [Border-Radius Previewer](https://github.com/florinpop17/app-ideas/blob/master/Projects/1-Beginner/Border-Radius-Previewer.md) 
 
-More challenges: [App Ideas Examples](https://github.com/EduardoSilSantos/app-ideas-examples)
+Mais desafios: [App Ideas Examples](https://github.com/EduardoSilSantos/app-ideas-examples)

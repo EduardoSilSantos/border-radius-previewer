@@ -11,7 +11,7 @@ input {
     margin: 50px;
 }
 
-.container form {
+form {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -29,8 +29,12 @@ form {
     height: var(--size);
 }
 
-@media (orientation: landscape) and (max-width: 1000px) {
+@media (orientation: landscape) and (max-width: 914px) {
     .container {
         display: flex;
+    }
+
+    form {
+        height: 100%;
     }
 }

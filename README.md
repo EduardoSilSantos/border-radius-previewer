@@ -119,7 +119,7 @@ npm install && npm test
 ## 🚀 Status
 <!-- - [x] Challenge successfully completed! -->
 ```bash
-🚧 → Under development... # Please wait for updates...
+🚧 → Bonus feature under development... # Please wait for updates...
 ```
 
 ## 🔗 References

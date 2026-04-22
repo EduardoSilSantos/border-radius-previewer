@@ -2,6 +2,15 @@
     --size: 300px;
 }
 
+.controllerPicker {
+    display: flex;
+}
+
+.box-controller {
+    display: none;
+}
+
+
 input {
     width: var(--size);
 }

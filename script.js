@@ -24,7 +24,7 @@ const inputEvent = (e) => {
             break;
     }
 
-    output.value = styles.borderTopLeftRadius + ' ' + styles.borderTopRightRadius + ' ' + styles.borderBottomLeftRadius + ' ' + styles.borderBottomRightRadius;
+    output.value = styles.borderTopLeftRadius + ' ' + styles.borderTopRightRadius + ' ' + styles.borderBottomRightRadius + ' ' + styles.borderBottomLeftRadius;
 }
 
 const formReset = () => box.style.setProperty('border-radius', '0%');
@@ -36,5 +36,21 @@ const copy = () => {
     navigator.clipboard.writeText(output.value);
 
     alert("Copied to clipboard " + output.value);
+}
+const showController = (e) => {
+    hideControllers();
+    const text = e.target.innerText;
+    document.querySelector('h3').innerText = text;
+    const inputClass = '.' + text.toLowerCase().replace(' ', '-');
+    const inputList = document.querySelectorAll(`${inputClass}`);
+    console.log(inputList);
+    inputList[0].style.setProperty('display', 'inline');
+    inputList[1].style.setProperty('display', 'inline-block');
+}
+const hideControllers = () => {
+    let boxControllers = document.querySelectorAll('.box-controller');
+    for (let i = 0; i < boxControllers.length; i++) {
+        boxControllers[i].style.setProperty('display', 'none');
+    }
 }
 

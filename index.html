@@ -12,18 +12,26 @@
     <div class="container">
         <div class="box"></div>
         <form onreset="formReset()">
+            <div class="controllerPicker">
+                <button type="button" onclick="showController(event)">Top Left</button>
+                <button type="button" onclick="showController(event)">Top Right</button>
+                <button type="button" onclick="showController(event)">Bottom Right</button>
+                <button type="button" onclick="showController(event)">Bottom Left</button>
+            </div>
+            <h3>Top Left</h3>
 
-            <label for="top-left">Top Left</label>
-            <input type="range" id="top-left">
+            <label style="display: inline;" class="box-controller top-left" for="top-left">Top Left</label>
+            <input style="display: inline-block;" class="box-controller top-left" type="range" id="top-left">
 
-            <label for="top-right">Top Right</label>
-            <input type="range" id="top-right">
+            <label class="box-controller top-right" for="top-right">Top Right</label>
+            <input class="box-controller top-right" type="range" id="top-right">
 
-            <label for="bottom-left">Bottom Left</label>
-            <input type="range" id="bottom-left">
 
-            <label for="bottom-right">Bottom Right</label>
-            <input type="range" id="bottom-right">
+            <label class="box-controller bottom-right" for="bottom-right">Bottom Right</label>
+            <input class="box-controller bottom-right" type="range" id="bottom-right">
+
+            <label class="box-controller bottom-left" for="bottom-left">Bottom Left</label>
+            <input class="box-controller bottom-left" type="range" id="bottom-left">
 
             <input type="reset" value="Reset">
 
